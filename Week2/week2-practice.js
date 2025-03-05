@@ -15,3 +15,8 @@ console.log("Inches per one foot " + convertFeetToInches(length1));
 console.log(convertFeetToInches(length2));
 console.log(`Inches per 30 feet: ${convertFeetToInches(length3)}`);
 
+function sumOfSquareAreas(a, b){
+    return a*a + b*b;
+}
+console.log(sumOfSquareAreas(9,3))
+
